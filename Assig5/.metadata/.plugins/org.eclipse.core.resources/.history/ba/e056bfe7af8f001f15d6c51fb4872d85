@@ -1,0 +1,38 @@
+package com.app.fruits;
+
+import java.util.Scanner;
+
+public class Fruit {
+	
+	String color;
+	double weight;
+	String name;
+	boolean isFresh;
+	
+	public Fruit() {
+		
+	}
+	
+	public Fruit(String color, double weight, String name, boolean isFresh) {
+		super();
+		this.color = color;
+		this.weight = weight;
+		this.name = name;
+		this.isFresh = isFresh;
+	}
+	
+	public void acceptFruit(Scanner sc)
+	{
+		System.out.println("Enter Fruit Name-");
+		name = sc.next();
+		
+		System.out.println("Enter Fruit Color-");
+		color = sc.next();
+		
+		System.out.println("Enter Fruit Weight-");
+		weight = sc.nextDouble();
+		
+	}
+	
+
+}

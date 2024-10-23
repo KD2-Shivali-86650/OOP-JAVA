@@ -1,0 +1,13 @@
+package question2;
+
+public class String {
+
+	public static void main(java.lang.String[] args) {
+		 
+		Reverse s = "Sunbeam Karad";
+		
+		
+
+	}
+
+}

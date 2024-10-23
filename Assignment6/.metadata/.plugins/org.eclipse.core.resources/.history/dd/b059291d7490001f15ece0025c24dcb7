@@ -1,0 +1,16 @@
+package com.sunbeam;
+
+
+public class Program01 {
+	
+	public void AcceptString(String message) throws ExceptionLineTooLong {
+		
+		if(message.length()<0 || message.length()>80 ) {
+			throw new ExceptionLineTooLong("The strings is too long");
+			
+			this.message = message;
+		}
+		
+	}
+
+}
